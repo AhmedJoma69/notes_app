@@ -8,10 +8,10 @@ class NotesApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/NotesView': (context) => NotesView(),
+        '/NotesView': (context) => const NotesView(),
       },
       theme: ThemeData(brightness: Brightness.dark),
-      debugShowCheckedModeBanner: false,     //darkmode
+      debugShowCheckedModeBanner: false, //dark mode
       initialRoute: '/NotesView',
     );
   }
